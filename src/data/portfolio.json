@@ -1,0 +1,17 @@
+{
+    "portfolio": [
+
+    {
+"cover": "/portfolio/tulahautos/cover.png",
+"title":"TulahAutos",
+"description": "HTML, CSS, JavaScript",
+"url": "https://tulahautos.netlify.app/"
+    }  ,
+        {
+"cover": "/portfolio/tulahautos/cover.png",
+"title":"TulahAutos",
+"description": "HTML, CSS, JavaScript",
+"url": "https://tulahautos.netlify.app/"
+    }  
+  ]
+}
