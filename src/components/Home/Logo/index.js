@@ -2,15 +2,15 @@ import './index.scss'
 import LogoS from '../../../assets/images/me.jpg'
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
-import { DrawSVGPlugin } from 'gsap-trial/DrawSVGPlugin'
+ /*import { DrawSVGPlugin } from 'gsap-trial/DrawSVGPlugin' */
 
 const Logo = () => {
-  const bgRef = useRef()
+ const bgRef = useRef()
   const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
 
   useEffect(() => {
-    gsap.registerPlugin(DrawSVGPlugin)
+    /*gsap.registerPlugin(DrawSVGPlugin) */
 
     gsap
       .timeline()
@@ -34,7 +34,7 @@ const Logo = () => {
         duration: 4,
       }
     )
-  }, [])
+  }, []) 
 
   return (
     <div className="logo-container" ref={bgRef}>
